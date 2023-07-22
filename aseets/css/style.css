@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.accodmain{
+    padding: 50px;
+    margin: 50px auto;
+    border: 2px solid red;
+    background-color: aqua;
+    color: bisque;
+    width:600px;
+}
+.accodhead{
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: blueviolet;
+    color: black;
+}
+.accodbody{
+    padding: 20px;
+    margin: 20px;
+    background-color: forestgreen;
+    color: black;
+}
+.accodhead+.accodbody{
+    display: none;
+}
+.accodhead.active+.accodbody{
+    display: block;
+}
+.accod{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight:900 ;
+    font-style: italic;
+    text-transform: uppercase;
+}
